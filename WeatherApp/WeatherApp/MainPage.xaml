@@ -18,7 +18,7 @@
                     <Label Text="Zip Code" TextColor="White" Margin="10" x:Name="lblZipCode"/>
                     <StackLayout  Orientation="Horizontal" VerticalOptions="Start">
                         <Entry WidthRequest="100" x:Name="edtZipCode"  VerticalOptions="Start" Text="{Binding ZipCode, Mode=TwoWay}"/>
-                        <Button Text="Get Weather" x:Name="btnGetWeather"  VerticalOptions="Start" Clicked="btnGetWeather_Click"/>
+                        <Button Text="{Binding ButtonContent}" x:Name="btnGetWeather"  VerticalOptions="Start" Clicked="btnGetWeather_Click"/>
                     </StackLayout>
                 </StackLayout>
             </StackLayout>
